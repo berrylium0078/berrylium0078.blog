@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
+  title: Berrylium' blog
   # Site subtitle
-  subtitle: Redefine Your Hexo Journey.
+  subtitle: Berrylium Production Complex
   # Author name
-  author: The Redefine Team
+  author: Berrylium
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://berrylium0078.github.io
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -27,9 +27,9 @@ defaults:
   # Favicon
   favicon: /images/redefine-favicon.svg
   # Site logo
-  logo: 
+  logo: /images/redefine-favicon.svg
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /assets/avatar.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -100,7 +100,6 @@ global:
     enable: false # Whether to enable Google Analytics
     id:  # Google Analytics Measurement ID
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-    
 
 # FONTAWESOME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/fontawesome
@@ -170,11 +169,11 @@ home_banner:
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
+      github: "https://github.com/berrylium0078" # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
-      email:  # your email
+      email: # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -344,43 +343,23 @@ articles:
 # Docs: https://redefine-docs.ohevan.com/posts/comment
 comment:
   # Whether to enable comment
-  enable: false
+  enable: true
   # Comment system
   system: giscus # waline, gitalk, twikoo, giscus
   # System configuration
   config:
-    # Waline comment system. See https://waline.js.org/
-    waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
-      lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
-      emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
-      recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
-      turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
-      reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
-    # Gitalk comment system. See https://github.com/gitalk/gitalk
-    gitalk:
-      clientID: # GitHub Application Client ID
-      clientSecret: # GitHub Application Client Secret
-      repo: # GitHub repository
-      owner: # GitHub repository owner
-      proxy: # GitHub repository proxy
-    # Twikoo comment system. See https://twikoo.js.org/
-    twikoo:
-      version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
-      server_url: # Twikoo server URL. e.g. https://example.example.com
-      region: # Twikoo region. can be empty
     # Giscus comment system. See https://giscus.app/
     giscus:
-      repo: # Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: # Github repository id
-      category: # Github discussion category
-      category_id: # Github discussion category id
+      repo: berrylium0078/berrylium0078.github.io # Github repository name e.g. EvanNotFound/hexo-theme-redefine
+      repo_id: R_kgDOO4m2vw # Github repository id
+      category: Comments # Github discussion category
+      category_id: DIC_kwDOO4m2v84CrPOq # Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
       emit_metadata: 0 # Whether to emit metadata. e.g. 0, 1
-      lang: en # Giscus language. e.g. en, zh-CN, zh-TW
-      input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
+      lang: zh-CN # Giscus language. e.g. en, zh-CN, zh-TW
+      input_position: top # Place the comment box above/below the comments. e.g. top, bottom
       loading: lazy # Load the comments lazily
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -393,7 +372,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2025/6/10 8:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
@@ -430,14 +409,14 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-#      - name: # audio name
-#        artist: # audio artist
-#        url: # audio url
-#        cover: # audio cover url
-#        lrc: # audio cover lrc
+      - name: "Idealized Romance" # audio name
+        artist: "void" # audio artist
+        url: "https://music.163.com/song/media/outer/url?id=716275" # audio url
+        cover: "https://p1.music.126.net/u7oc2uI0W9FxzglzNF7BRg==/109951166541286185.jpg?param=177y177" # audio cover url
+        lrc: "AD: Piano" # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url

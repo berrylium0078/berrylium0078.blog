@@ -140,8 +140,8 @@ markdown_it_plus:
             name: markdown-it-ruby
             enable: true
 
-# deploy:
-#   type: git
-#   repo: "git@github.com:xxx.git"
-#   branch: public
-#   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+deploy:
+  type: git
+  repo: "git@github.com:berrylium0078/berrylium0078.github.io.git"
+  branch: public
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
