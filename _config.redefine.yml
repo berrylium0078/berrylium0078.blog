@@ -351,7 +351,7 @@ comment:
     # Giscus comment system. See https://giscus.app/
     giscus:
       repo: berrylium0078/berrylium0078.github.io # Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: R_kgDOO4m2vw # Github repository id
+      repo_id: R_kgDOO4qHPQ # Github repository id
       category: Comments # Github discussion category
       category_id: DIC_kwDOO4qHPc4CrPk # Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
