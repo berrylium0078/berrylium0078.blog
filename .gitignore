@@ -1,0 +1,6 @@
+Session.vim
+source/_drafts
+node_modules
+public
+.deploy_git
+db.json
